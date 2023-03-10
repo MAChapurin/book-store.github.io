@@ -22,9 +22,9 @@ export class Search extends DivComponent {
                     class="search__input"
                     value="${this.state.searchQuery ? this.state.searchQuery : ''}"
                     />
-                    <img src = "/static/search.svg" alt="search icon"/>
+                    <img src = "static/search.svg" alt="search icon"/>
         </div>
-        <button><img src="/static/search-white.svg"/></button>
+        <button><img src="static/search-white.svg"/></button>
         `;
         this.el.querySelector('button').addEventListener('click', this.search.bind(this))
         this.el.querySelector('input').addEventListener('keydown', (event) => {
