@@ -1,0 +1,34 @@
+{
+  "name": "book-store.github.io",
+  "version": "1.0.0",
+  "description": "App for books",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAChapurin/book-store.github.io.git"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Mikhail Chapurin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MAChapurin/book-store.github.io/issues"
+  },
+  "homepage": "https://github.com/MAChapurin/book-store.github.io#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "eslint": "^8.35.0",
+    "live-server": "^1.2.2",
+    "rollup": "^3.18.0",
+    "rollup-plugin-import-css": "^3.2.1"
+  },
+  "dependencies": {
+    "on-change": "^4.0.2"
+  }
+}
